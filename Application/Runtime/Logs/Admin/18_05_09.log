@@ -1,454 +1,692 @@
-[ 2018-05-09T08:52:54+08:00 ] 180.175.2.51 /admin/index
+[ 2018-05-09T23:19:58+08:00 ] 127.0.0.1 /index.php/admin/wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003688s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.003710s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018757s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003653s ]
 
-[ 2018-05-09T08:53:05+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:20:06+08:00 ] 127.0.0.1 /index.php/admin/wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: thi F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 24 行.
+
+[ 2018-05-09T23:20:35+08:00 ] 127.0.0.1 /index.php/admin/wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004478s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004512s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014698s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
 
-[ 2018-05-09T09:00:21+08:00 ] 180.175.2.51 /admin/index
+[ 2018-05-09T23:20:48+08:00 ] 127.0.0.1 /admin/index
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003728s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.003750s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017474s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
 
-[ 2018-05-09T09:00:24+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:20:49+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0007s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004842s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004869s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015464s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
 
-[ 2018-05-09T09:00:30+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:20:56+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004923s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004766s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004791s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015997s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001710s ]
 
-[ 2018-05-09T09:01:37+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:20:59+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0007s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004807s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004836s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015902s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
 
-[ 2018-05-09T09:01:37+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:21:20+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004776s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004802s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010280s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
 
-[ 2018-05-09T09:02:14+08:00 ] 180.175.2.51 /admin/index
+[ 2018-05-09T23:21:23+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003629s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.003650s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017865s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
 
-[ 2018-05-09T09:12:29+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:21:47+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004407s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004432s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011474s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001120s ]
 
-[ 2018-05-09T09:12:30+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:21:50+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0007s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2018-05-09T23:22:09+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+
+[ 2018-05-09T23:22:12+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2018-05-09T23:25:27+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001613s ]
+
+[ 2018-05-09T23:25:35+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0187s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('','0','./2018-05-09/5af312ef429ab.png') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2018-05-09T23:25:36+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2018-05-09T23:26:09+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0070s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('','0','./2018-05-09/5af3131118708.png') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2018-05-09T23:26:10+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2018-05-09T23:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0064s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('','0','./2018-05-09/5af3132b38efe.png') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2018-05-09T23:26:36+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2018-05-09T23:31:23+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+
+[ 2018-05-09T23:32:00+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2018-05-09T23:32:07+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-05-09T23:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000309s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2018-05-09T23:32:18+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004350s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009912s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
 
-[ 2018-05-09T09:13:53+08:00 ] 180.175.2.51 /admin/index
+[ 2018-05-09T23:32:21+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003823s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.003847s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015194s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
 
-[ 2018-05-09T09:13:57+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:33:29+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0074s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('吴鹏宇测试','吴鹏宇测试','./2018-05-09/5af314c991a2a.png') [ RunTime:0.0004s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004385s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004419s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011184s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
 
-[ 2018-05-09T09:14:19+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:33:30+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0007s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004351s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004375s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000479s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021197s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002711s ]
 
-[ 2018-05-09T09:14:20+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:33:41+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004350s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004373s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009695s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
 
-[ 2018-05-09T09:14:29+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:33:44+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004612s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004637s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015429s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
 
-[ 2018-05-09T09:15:06+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:40:05+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004494s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004518s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016040s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
 
-[ 2018-05-09T09:15:07+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:40:32+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004838s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004877s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000385s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015544s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001083s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
 
-[ 2018-05-09T09:15:53+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:41:02+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0007s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004318s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004342s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018551s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
 
-[ 2018-05-09T09:27:16+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:42:00+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0076s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('吴鹏宇测试','wy123','./2018-05-09/5af316c8296e3.png') [ RunTime:0.0008s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004239s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004265s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011582s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000822s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
 
-[ 2018-05-09T09:27:24+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
+[ 2018-05-09T23:42:01+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0006s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004048s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004072s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016217s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001389s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
-
-[ 2018-05-09T09:38:59+08:00 ] 180.175.2.51 /index.php/Admin/Phone/phone.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
-SQL: SHOW COLUMNS FROM `gf_form` [ RunTime:0.0008s ]
-SQL: SELECT * FROM `gf_form`  [ RunTime:0.0007s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004942s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004969s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002016s ]
 

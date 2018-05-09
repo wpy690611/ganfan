@@ -1,0 +1,1439 @@
+[ 2018-05-10T00:02:12+08:00 ] 127.0.0.1 /admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2018-05-10T00:02:16+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2018-05-10T00:02:18+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2018-05-10T00:02:20+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2018-05-10T00:04:19+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001666s ]
+
+[ 2018-05-10T00:06:20+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001776s ]
+
+[ 2018-05-10T00:06:22+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2018-05-10T00:06:22+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2018-05-10T00:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001700s ]
+
+[ 2018-05-10T00:12:03+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2018-05-10T00:12:19+08:00 ] 127.0.0.1 /admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001858s ]
+
+[ 2018-05-10T00:12:21+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+
+[ 2018-05-10T00:12:39+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [2] Illegal string offset 'id' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 43 行.
+NOTIC: [2] Illegal string offset 'name' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 44 行.
+NOTIC: [2] Illegal string offset 'wx' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 45 行.
+NOTIC: [2] Illegal string offset 'wxphoto' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 46 行.
+NOTIC: [2] Illegal string offset '' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [2] Illegal string offset 'url' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [2] Illegal string offset 'keyword' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [2] Illegal string offset 'state' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2018-05-10T00:13:53+08:00 ] 127.0.0.1 /admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2018-05-10T00:13:54+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2018-05-10T00:13:55+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [2] Illegal string offset 'id' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 43 行.
+NOTIC: [2] Illegal string offset 'name' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 44 行.
+NOTIC: [2] Illegal string offset 'wx' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 45 行.
+NOTIC: [2] Illegal string offset 'wxphoto' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 46 行.
+NOTIC: [2] Illegal string offset '' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [2] Illegal string offset 'url' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [2] Illegal string offset 'keyword' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [2] Illegal string offset 'state' F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2018-05-10T00:14:46+08:00 ] 127.0.0.1 /admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2018-05-10T00:14:48+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2018-05-10T00:15:00+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2018-05-10T00:17:13+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2018-05-10T00:17:15+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2018-05-10T00:17:22+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0157s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('www','吴鹏宇测试','./2018-05-10/5af31f129d557.png') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2018-05-10T00:17:23+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2018-05-10T00:17:25+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-05-10T00:18:04+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2018-05-10T00:18:18+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2018-05-10T00:19:37+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index: id F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 43 行.
+NOTIC: [8] Undefined index: name F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 44 行.
+NOTIC: [8] Undefined index: wx F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 45 行.
+NOTIC: [8] Undefined index: wxphoto F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 46 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2018-05-10T00:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index: caozuo F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 52 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index: caozuo F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 52 行.
+NOTIC: [8] Undefined index: id F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 43 行.
+NOTIC: [8] Undefined index: name F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 44 行.
+NOTIC: [8] Undefined index: wx F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 45 行.
+NOTIC: [8] Undefined index: wxphoto F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 46 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2018-05-10T00:33:19+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+
+[ 2018-05-10T00:33:28+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 52 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 52 行.
+NOTIC: [8] Undefined index: id F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 43 行.
+NOTIC: [8] Undefined index: name F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 44 行.
+NOTIC: [8] Undefined index: wx F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 45 行.
+NOTIC: [8] Undefined index: wxphoto F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 46 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2018-05-10T00:33:36+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2018-05-10T00:33:43+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0063s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('吴鹏宇测试','wy123','./2018-05-10/5af322e711706.png') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001950s ]
+
+[ 2018-05-10T00:33:44+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003511s ]
+
+[ 2018-05-10T00:34:19+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002303s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0072s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('吴鹏宇测试','wy123','./2018-05-10/5af3230b205e0.png') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2018-05-10T00:34:20+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003274s ]
+
+[ 2018-05-10T00:35:21+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0069s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('吴鹏宇测试','wy123','./2018-05-10/5af3234954c19.png') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002364s ]
+
+[ 2018-05-10T00:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004571s ]
+
+[ 2018-05-10T00:35:58+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0067s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('吴鹏宇测试','吴鹏宇测试','./2018-05-10/5af3236e32fc2.png') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2018-05-10T00:35:59+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002688s ]
+
+[ 2018-05-10T00:37:23+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0070s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`) VALUES ('吴鹏宇测试','必填项','./2018-05-10/5af323c35eb82.png') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2018-05-10T00:37:24+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001953s ]
+
+[ 2018-05-10T00:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0072s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`,`state`) VALUES ('吴鹏宇测试','wy123','./2018-05-10/5af324316ba36.png','上线') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2018-05-10T00:39:14+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002831s ]
+
+[ 2018-05-10T00:39:16+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index: id F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 43 行.
+NOTIC: [8] Undefined index: name F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 44 行.
+NOTIC: [8] Undefined index: wx F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 45 行.
+NOTIC: [8] Undefined index: wxphoto F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 46 行.
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+NOTIC: [8] Undefined index: state F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001693s ]
+
+[ 2018-05-10T00:39:39+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2018-05-10T00:39:56+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.1152s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002037s ]
+
+[ 2018-05-10T00:40:07+08:00 ] 127.0.0.1 /admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001833s ]
+
+[ 2018-05-10T00:40:09+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000474s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002408s ]
+
+[ 2018-05-10T00:40:10+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2018-05-10T00:40:41+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2018-05-10T00:42:24+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2018-05-10T00:45:08+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2018-05-10T00:45:36+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0069s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`,`state`) VALUES ('吴鹏宇测试','吴鹏宇测试','./2018-05-10/5af325b01ef75.jpg','上线') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2018-05-10T00:45:37+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2018-05-10T01:21:00+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2018-05-10T01:21:17+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0072s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`,`state`) VALUES ('吴鹏宇测试','必填项','2018-05-10/5af32e0dd26a6.jpg','上线') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2018-05-10T01:21:18+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2018-05-10T01:23:39+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2018-05-10T01:23:59+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Admin\Controller\WxController.class.php 第 20 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\phpstudy\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0068s ]
+SQL: INSERT INTO `gf_wx` (`name`,`wx`,`wxphoto`,`state`) VALUES ('吴鹏宇测试','wy123','2018-05-10/5af32eaf5bcbf.jpg','上线') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-05-10T01:24:00+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2018-05-10T01:24:02+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2018-05-10T01:29:46+08:00 ] 127.0.0.1 /admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2018-05-10T01:29:48+08:00 ] 127.0.0.1 /index.php/Admin/Wx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2018-05-10T01:29:50+08:00 ] 127.0.0.1 /index.php/Admin/Wx/wxlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `gf_wx` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `gf_wx`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined index:  F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 47 行.
+NOTIC: [8] Undefined index: url F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 48 行.
+NOTIC: [8] Undefined index: keyword F:\phpstudy\WWW\Application\Runtime\Cache\Admin\b2911d6ced9f8bab3c7fddc34817f304.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+

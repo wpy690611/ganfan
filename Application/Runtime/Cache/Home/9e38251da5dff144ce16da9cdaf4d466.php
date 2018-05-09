@@ -67,10 +67,10 @@ var _hmt = _hmt || [];
     <div class="ljtop">
         <div class="top">
             <div class="jtc">
-                <span class="ewm"><img class="qqImg" src="/Public/Home/ganfanf/picture/wx.jpg" alt="" ></span>
+                <span class="ewm"><img class="qqImg" src="http://127.0.0.1/uploads/<?php echo ($wx_data['wxphoto']); ?>" alt="" ></span>
                 <div>
                     <h4>微信扫一扫，3只牛股就拿到</h4>
-                    <p><span>欢迎加微信：<code class="qqnum"><strong>whyme1290</strong></code></span></p>
+                    <p><span>欢迎加微信：<code class="qqnum"><strong><?php echo ($wx_data['wx']); ?></strong></code></span></p>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@ var _hmt = _hmt || [];
     <div class="ljcons">
         <div class="ljc3">
             <h3 class="ljh3"><img src="/Public/Home/ganfanf/picture/jls_h3.png"/></h3>
-            <p class="hp">朋友们只需要的就是，花个5秒钟，加入一个微信聊<code class="qqnum" style="color: red;"><strong>whyme1290</strong></code>， 即可享受到以上服务，领取免费牛股...让我们把专业的事情，教给专业的人来做</p>
+            <p class="hp">朋友们只需要的就是，花个5秒钟，加入一个微信聊<code class="qqnum" style="color: red;"><strong><?php echo ($wx_data['wx']); ?></strong></code>， 即可享受到以上服务，领取免费牛股...让我们把专业的事情，教给专业的人来做</p>
             <div class="ljc31">
                 <img src="/Public/Home/ganfanf/picture/jls_c3.jpg" />
             </div>
@@ -209,13 +209,13 @@ var _hmt = _hmt || [];
         </div>
     </div>
     <div class="qfc5">
-        <a href="#" class="im-qq qq-a" title="" target="_top"><img src="/Public/Home/ganfanf/picture/wx.jpg" style="border: 5px solid orange;">
+        <a href="#" class="im-qq qq-a" title="" target="_top"><img src="http://127.0.0.1/uploads/<?php echo ($wx_data['wxphoto']); ?>" style="border: 5px solid orange;">
         </a>
     </div>
 
     <div class="popup">
         <div class="img">
-             <img src="/Public/Home/ganfanf/picture/wx.jpg" alt="" style="border: 5px solid orange;">
+             <img src="<?php echo ($wx_data['wxphoto']); ?>" alt="" style="border: 5px solid orange;">
              
         </div>
         <div class="close">
