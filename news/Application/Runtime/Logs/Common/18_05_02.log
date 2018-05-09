@@ -1,0 +1,12 @@
+[ 2018-05-02T13:45:36+08:00 ] 127.0.0.1 /news/Public/ib/laypage/1.2/laypage.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-02T13:59:58+08:00 ] 127.0.0.1 /news/Public/ib/laypage/1.2/laypage.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Public
+

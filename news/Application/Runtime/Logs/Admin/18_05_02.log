@@ -1,0 +1,231 @@
+[ 2018-05-02T13:45:23+08:00 ] 127.0.0.1 /news/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2018-05-02T13:45:27+08:00 ] 127.0.0.1 /news/index.php/Admin/Consume/consume.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `qpp_product` [ RunTime:0.1014s ]
+NOTIC: [2] Missing argument 1 for Think\Model::limit(), called in F:\phpstudy\WWW\news\Application\Admin\Controller\ConsumeController.class.php on line 21 and defined F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1829 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1830 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1833 行.
+SQL: SELECT qpp_product.*,m.media,m.media_price FROM `qpp_product` INNER JOIN qpp_media m on qpp_product.media_id=m.id  WHERE ( uid='1' ) ORDER BY id desc  [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `qpp_finance` [ RunTime:0.0087s ]
+SQL: SELECT `balance` FROM `qpp_finance` WHERE ( uid=1 ) ORDER BY Id desc LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2018-05-02T13:45:33+08:00 ] 127.0.0.1 /news/index.php/Admin/Product/productAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000355s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2018-05-02T13:45:36+08:00 ] 127.0.0.1 /news/index.php/Admin/ProductList/productList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `qpp_product` [ RunTime:0.0521s ]
+NOTIC: [2] Missing argument 1 for Think\Model::limit(), called in F:\phpstudy\WWW\news\Application\Admin\Controller\ProductListController.class.php on line 17 and defined F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1829 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1830 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1833 行.
+SQL: SELECT qpp_product.*,m.media,m.media_price FROM `qpp_product` INNER JOIN qpp_media m on qpp_product.media_id=m.id  WHERE ( uid='1' ) ORDER BY id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2018-05-02T13:56:09+08:00 ] 127.0.0.1 /news/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2018-05-02T13:56:18+08:00 ] 127.0.0.1 /news/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-05-02T13:56:51+08:00 ] 127.0.0.1 /news/index.php/Admin/Consume/consume.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `qpp_product` [ RunTime:0.0065s ]
+NOTIC: [2] Missing argument 1 for Think\Model::limit(), called in F:\phpstudy\WWW\news\Application\Admin\Controller\ConsumeController.class.php on line 21 and defined F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1829 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1830 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1833 行.
+SQL: SELECT qpp_product.*,m.media,m.media_price FROM `qpp_product` INNER JOIN qpp_media m on qpp_product.media_id=m.id  WHERE ( uid='1' ) ORDER BY id desc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `qpp_finance` [ RunTime:0.0070s ]
+SQL: SELECT `balance` FROM `qpp_finance` WHERE ( uid=1 ) ORDER BY Id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2018-05-02T13:59:57+08:00 ] 127.0.0.1 /news/index.php/Admin/ProductList/productList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `qpp_product` [ RunTime:0.0066s ]
+NOTIC: [2] Missing argument 1 for Think\Model::limit(), called in F:\phpstudy\WWW\news\Application\Admin\Controller\ProductListController.class.php on line 17 and defined F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1829 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1830 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1833 行.
+SQL: SELECT qpp_product.*,m.media,m.media_price FROM `qpp_product` INNER JOIN qpp_media m on qpp_product.media_id=m.id  WHERE ( uid='1' ) ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2018-05-02T14:00:03+08:00 ] 127.0.0.1 /news/index.php/Admin/Consume/consume.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `qpp_product` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::limit(), called in F:\phpstudy\WWW\news\Application\Admin\Controller\ConsumeController.class.php on line 21 and defined F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1829 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1830 行.
+NOTIC: [8] Undefined variable: offset F:\phpstudy\WWW\news\ThinkPHP\Library\Think\Model.class.php 第 1833 行.
+SQL: SELECT qpp_product.*,m.media,m.media_price FROM `qpp_product` INNER JOIN qpp_media m on qpp_product.media_id=m.id  WHERE ( uid='1' ) ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `qpp_finance` [ RunTime:0.0065s ]
+SQL: SELECT `balance` FROM `qpp_finance` WHERE ( uid=1 ) ORDER BY Id desc LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2018-05-02T14:45:11+08:00 ] 127.0.0.1 /news/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001935s ]
+
