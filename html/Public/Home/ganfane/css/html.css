@@ -1,0 +1,125 @@
+﻿@charset "UTF-8";
+*{word-wrap:break-word}
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset{margin:0;padding:0}
+ul,ol,dl{list-style-type:none}
+html,body{*position:static}
+html{font-family: sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button{overflow: visible;vertical-align:middle;outline:none}
+body,th,td,button,input,select,textarea{font-family:"Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";font-size:12px;color: #333;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale}
+body{line-height:1.6}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+a,area{outline:none;blr:expression(this.onFocus=this.blur())}
+a{text-decoration:none;cursor: pointer}
+a:hover{text-decoration:underline;outline:none}
+a.ie6:hover{zoom:1}
+a:focus{outline:none}
+a:hover,a:active{outline:none}:focus{outline:none}
+sub,sup{vertical-align:baseline}
+button,input[type="button"], input[type="submit"] {line-height:normal !important;}
+/*img*/
+img{border:0;vertical-align:middle}
+a img,img{-ms-interpolation-mode:bicubic}
+.img-responsive{max-width: 100%;height: auto}
+
+/*IE下a:hover 背景闪烁*/
+*html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}(this))}
+
+
+/*HTML5 reset*/
+header,footer,section,aside,details,menu,article,section,nav,address,hgroup,figure,figcaption,legend{display:block;margin:0;padding:0}time{display:inline}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]){display:none}
+legend{width:100%;margin-bottom:20px;font-size:21px;line-height:40px;border:0;border-bottom:1px solid #e5e5e5}
+legend small{font-size:15px;color:#999}
+svg:not(:root) {overflow: hidden}
+fieldset {border-width:0;padding: 0.35em 0.625em 0.75em;margin: 0 2px;border: 1px solid #c0c0c0}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {height: auto}
+input[type="search"] {-webkit-appearance: textfield; /* 1 */-moz-box-sizing: content-box;-webkit-box-sizing: content-box; /* 2 */box-sizing: content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {-webkit-appearance: none}
+/*
+Name:			style_clearfix
+Example:		class="clearfix|cl"
+Explain:		Clearfix（简写cl）避免因子元素浮动而导致的父元素高度缺失能问题
+*/
+.cl:after,.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.cl,.clearfix{zoom:1}
+
+.m-xs{ margin: 5px;}
+.m-sm{ margin: 10px;}
+.m{ margin: 15px;}
+.m-md{ margin: 20px;}
+.m-lg{ margin: 30px;}
+
+.m-t-xs{ margin-top: 5px;}
+.m-t-sm{ margin-top: 10px;}
+.m-t{ margin-top: 15px;}
+.m-t-md{ margin-top: 20px;}
+.m-t-lg{ margin-top: 30px;}
+
+.m-l-xs{ margin-left: 5px;}
+.m-l-sm{ margin-left: 10px;}
+.m-l{ margin-left: 15px;}
+.m-l-md{ margin-left: 20px;}
+.m-l-lg{ margin-left: 30px;}
+
+.m-r-xs{ margin-right: 5px;}
+.m-r-sm{ margin-right: 10px;}
+.m-r{ margin-right: 15px;}
+.m-r-md{ margin-right: 20px;}
+.m-r-lg{ margin-right: 30px;}
+
+.m-b-xs{ margin-bottom: 5px;}
+.m-b-sm{ margin-bottom: 10px;}
+.m-b{ margin-bottom: 15px;}
+.m-b-md{ margin-bottom: 20px;}
+.m-b-lg{ margin-bottom: 30px;}
+
+.p-xs{ padding: 5px;}
+.p-sm{ padding: 10px;}
+.p{ padding: 15px;}
+.p-md{ padding: 20px;}
+.p-lg{ padding: 30px;}
+
+.p-t-xs{ padding-top: 5px;}
+.p-t-sm{ padding-top: 10px;}
+.p-t{ padding-top: 15px;}
+.p-t-md{ padding-top: 20px;}
+.p-t-lg{ padding-top: 30px;}
+
+.p-l-xs{ padding-left: 5px;}
+.p-l-sm{ padding-left: 10px;}
+.p-l{ padding-left: 15px;}
+.p-l-md{ padding-left: 20px;}
+.p-l-lg{ padding-left: 30px;}
+
+.p-r-xs{ padding-right: 5px;}
+.p-r-sm{ padding-right: 10px;}
+.p-r{ padding-right: 15px;}
+.p-r-md{ padding-right: 20px;}
+.p-r-lg{ padding-right: 30px;}
+
+.p-b-xs{ padding-bottom: 5px;}
+.p-b-sm{ padding-bottom: 10px;}
+.p-b{ padding-bottom: 15px;}
+.p-b-md{ padding-bottom: 20px;}
+.p-b-lg{ padding-bottom: 30px;}
+
+.d-ib{ display: inline-block;}
+.d-b{ display: block;}
+.d-no{ display: none;}
+
+.f-l{ float: left;}
+.f-r{ float: right;}
+.f-no{ float: inherit;}
+
+.t-c{ text-align: center;}
+.t-l{ text-align: left;}
+.t-r{ text-align: right;}
+
+.o-h{ overflow: hidden;}
+
+.relative{ position: relative;}
+.absolute{ position: absolute;}
+
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
