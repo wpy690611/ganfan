@@ -82,3 +82,15 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
 ERR: 无法加载模块:Public
 
+[ 2018-05-10T15:17:33+08:00 ] 127.0.0.1 /Public/Home/ganfanf/fonts/iconfont.woff
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+ERR: 无法加载模块:Public
+
+[ 2018-05-10T15:17:33+08:00 ] 127.0.0.1 /Public/Home/ganfanf/fonts/iconfont.ttf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载模块:Public
+

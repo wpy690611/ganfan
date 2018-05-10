@@ -59,15 +59,17 @@ class WxController extends Controller
     //上下线操作
     public function up(){
         $id=$state['id']=I('id');
-        ;
-         // dump($state);
+        $sta=$state['state']=I('state');
+         // dump($sta);
         if($state){
-            if ($state['state']="下线") {
+            if($state['state']=="下线") {
                 $state['state']="上线";
+                // dump($state);
                 $change=M('wx')->where("id='$id'")->save($state);
                 $this->success('已上线，请刷新展示页！');
             }else{
-                 $state['state']="下线";
+                $state['state']="下线";
+                // dump($state);
                 $change=M('wx')->where("id='$id'")->save($state);
                 $this->success('已下线，请刷新展示页！');
             }

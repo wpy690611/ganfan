@@ -32,7 +32,7 @@
             <th width="100">被推广人微信号</th>
             <th width="100">微信二维码url</th>
             <th width="60">推广源</th>
-            <th width="150">操作</th>
+            <th width="150">目前状态</th>
             
             <!-- <th width="60">关键词</th> -->
             <!-- <th width="60" class="text-c">审核专员</th> -->
