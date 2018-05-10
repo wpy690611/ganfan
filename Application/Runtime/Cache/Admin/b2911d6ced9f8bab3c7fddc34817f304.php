@@ -31,25 +31,29 @@
             <th width="80">被推广人姓名</th>
             <th width="100">被推广人微信号</th>
             <th width="100">微信二维码url</th>
+            <th width="60">推广源</th>
             <th width="150">操作</th>
-       <!--      <th width="60">url来源</th>
-            <th width="60">关键词</th> -->
+            
+            <!-- <th width="60">关键词</th> -->
             <!-- <th width="60" class="text-c">审核专员</th> -->
         </tr>
         </thead>
         <tbody>
         <?php if(is_array($wxlist)): $i = 0; $__LIST__ = $wxlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="text-c">
             <td><input name="" type="checkbox" value=""></td>
-            <td><?php echo ($vo["id"]); ?></td>
+            <td ><?php echo ($vo["id"]); ?></td>
             <td><?php echo ($vo["name"]); ?></td>
             <td><?php echo ($vo["wx"]); ?></td>
             <td ><?php echo ($vo["wxphoto"]); ?></td>
-           <!--  <td><?php echo ($vo[""]); ?></td>
-            <td><?php echo ($vo["url"]); ?></td>
-            <td><?php echo ($vo["keyword"]); ?></td> -->
+            <td><?php echo ($vo["mediaid"]); ?></td>
+            <!-- <td><?php echo ($vo["url"]); ?></td> -->
+            <!-- <td><?php echo ($vo["keyword"]); ?></td> -->
             <!-- <td class="td-status"><span class="label label-success radius">已发布</span></td> -->
             <!-- <td class="td-manage"></td> -->
-            <td class="text-c"><a href=""><?php echo ($vo["state"]); ?></a></td>
+            <td class="text-c" name="state">
+            <form action="<?php echo U('wx/up');?>">
+            <input type="hidden" value="<?php echo ($vo["id"]); ?>" name="id">
+            <input onclick="alert('确定要上/下线吗？？？')" type="submit" value="<?php echo ($vo["state"]); ?>" name="state">状态</td></form>
         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
     </table>

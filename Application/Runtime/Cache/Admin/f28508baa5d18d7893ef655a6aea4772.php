@@ -43,21 +43,20 @@
 				<input type="text" class="input-text" value="" placeholder="" id="" name="wx">
 			</div>
 		</div>
-
-<!-- 		<div class="row cl-2">
+		<div class="row cl-2">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>选择媒体类型：</label>
 			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
-				<select name="mediaId3" class="select">
-					<option value="10">商业媒体</option>
-					<option value="11">自媒体</option>
-					<option value="12">动态/微头条</option>
+				<select name="mediaid" class="select">
+					<option value="1">百度</option>
+					<option value="2">搜狗</option>
+					<!-- <option value="12">动态/微头条</option>
 					<option value="13">论坛营销</option>
 					<option value="14">微信公众号</option>
 					<option value="15">新浪微博</option>
-					<option value="16">朋友圈</option>
+					<option value="16">朋友圈</option> -->
 				</select>
 				</span> </div>
-		</div> -->
+		</div>
 		<div class="row cl">
 			<label class="form-label col-xs-4 col-sm-2"><span class="c-red">*</span>上传微信二维码：</label>
 			<div class="formControls col-xs-8 col-sm-9">

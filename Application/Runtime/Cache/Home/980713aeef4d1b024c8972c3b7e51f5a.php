@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">  
@@ -43,7 +43,7 @@
    结束 -->
     
 
-<link media="all" href="__HOME__ganfanf/css/index.css" type="text/css" rel="stylesheet">
+<link media="all" href="/Public/Home/ganfanf/css/index.css" type="text/css" rel="stylesheet">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -67,10 +67,10 @@ var _hmt = _hmt || [];
     <div class="ljtop">
         <div class="top">
             <div class="jtc">
-                <span class="ewm"><img class="qqImg" src="http://127.0.0.1/Uploads/{$wx_data['wxphoto']}" alt="" ></span>
+                <span class="ewm"><img class="qqImg" src="http://127.0.0.1/uploads/<?php echo ($wx_data['wxphoto']); ?>" alt="" ></span>
                 <div>
                     <h4>微信扫一扫，3只牛股就拿到</h4>
-                    <p><span>欢迎加微信：<code class="qqnum"><strong>{$wx_data['wx']}</strong></code></span></p>
+                    <p><span>欢迎加微信：<code class="qqnum"><strong><?php echo ($wx_data['wx']); ?></strong></code></span></p>
                 </div>
             </div>
         </div>
@@ -78,20 +78,20 @@ var _hmt = _hmt || [];
     <div class="ljcons">
         <a href="#" class="ljbut" style="margin-top: 0px; margin-bottom: 15px;" target="_top">点击领牛股</a>
         <div class="ljc1">
-            <h3 class="ljh3"><img src="__HOME__ganfanf/picture/jls_h1.png" /></h3>
+            <h3 class="ljh3"><img src="/Public/Home/ganfanf/picture/jls_h1.png" /></h3>
             <ul>
                 <li class="l1">
-                    <span><img src="__HOME__ganfanf/picture/jls_c1_i1.png"></span>
+                    <span><img src="/Public/Home/ganfanf/picture/jls_c1_i1.png"></span>
                     <h5><em>微信高手大牛</em></h5>
                     <p>二十年操盘经验，深度看盘，解析每日行情，牛人在线，实时解答，更方便！</p>
                 </li>
                 <li class="l2">
-                    <span><img src="__HOME__ganfanf/picture/jls_c1_i2.png"></span>
+                    <span><img src="/Public/Home/ganfanf/picture/jls_c1_i2.png"></span>
                     <h5><em>战法免费相授</em></h5>
                     <p>经典分析技术、涨停操盘战法，每日复盘传授抓涨停技巧，新手变身老司机，更快速！</p>
                 </li>
                 <li class="l3">
-                    <span><img src="__HOME__ganfanf/picture/jls_c1_i3.png"></span>
+                    <span><img src="/Public/Home/ganfanf/picture/jls_c1_i3.png"></span>
                     <h5><em>解套分析</em></h5>
                     <p>提供策略案，解读个股庄家密码，站在牛人的视角，进行分析和个股解套，更容易！</p>
                 </li>
@@ -99,36 +99,36 @@ var _hmt = _hmt || [];
         </div>
     </div>
     <div class="ljc2">
-        <h3 class="ljh3"><img src="__HOME__ganfanf/picture/jls_h2.png"></h3>
+        <h3 class="ljh3"><img src="/Public/Home/ganfanf/picture/jls_h2.png"></h3>
         <p class="hp">不要再错过2018年大牛暴涨行情</p>
         <ul>
             <li class="l1">
-                <span><img src="__HOME__ganfanf/picture/jls_c2_i1.png"></span>
+                <span><img src="/Public/Home/ganfanf/picture/jls_c2_i1.png"></span>
                 <p>“倍爽的感觉就是这样，一下就涨了好多”</p>
             </li>
             <li class="l2">
-                <span><img src="__HOME__ganfanf/picture/jls_c2_i2.png"></span>
+                <span><img src="/Public/Home/ganfanf/picture/jls_c2_i2.png"></span>
                 <p>“看似不起眼，没想到赚了那么多”</p>
             </li>
             <li class="l1">
-                <span><img src="__HOME__ganfanf/picture/jls_c2_i3.png"></span>
+                <span><img src="/Public/Home/ganfanf/picture/jls_c2_i3.png"></span>
                 <p>“再也不迷茫了，每天都有牛股免费拿”</p>
             </li>
             <li class="l2">
-                <span><img src="__HOME__ganfanf/picture/jls_c2_i4.png"></span>
+                <span><img src="/Public/Home/ganfanf/picture/jls_c2_i4.png"></span>
                 <p>“这才是股市应有的样子，今日买明天涨！爽”</p>
             </li>
         </ul>
-        <img src="__HOME__ganfanf/picture/xz_p1.png" alt="" style="display: block; margin: 12px auto;">
+        <img src="/Public/Home/ganfanf/picture/xz_p1.png" alt="" style="display: block; margin: 12px auto;">
         <a href="#" class="ljbut" target="_top">点击领《5月翻倍牛股策略》</a>
         <p style="font-size: 16px; line-height: 28px; text-align: center; margin-top: 15px;">学习《三星低照》和《饿虎扑食》全新形态，掌握股市长虹奥秘</p>
     </div>
     <div class="ljcons">
         <div class="ljc3">
-            <h3 class="ljh3"><img src="__HOME__ganfanf/picture/jls_h3.png"/></h3>
-            <p class="hp">朋友们只需要的就是，花个5秒钟，加入一个微信聊<code class="qqnum" style="color: red;"><strong>{$wx_data['wx']}</strong></code>， 即可享受到以上服务，领取免费牛股...让我们把专业的事情，教给专业的人来做</p>
+            <h3 class="ljh3"><img src="/Public/Home/ganfanf/picture/jls_h3.png"/></h3>
+            <p class="hp">朋友们只需要的就是，花个5秒钟，加入一个微信聊<code class="qqnum" style="color: red;"><strong><?php echo ($wx_data['wx']); ?></strong></code>， 即可享受到以上服务，领取免费牛股...让我们把专业的事情，教给专业的人来做</p>
             <div class="ljc31">
-                <img src="__HOME__ganfanf/picture/jls_c3.jpg" />
+                <img src="/Public/Home/ganfanf/picture/jls_c3.jpg" />
             </div>
             <div class="ljc32">
                 <h4>4月牛股战绩 真实可查</h4>
@@ -189,7 +189,7 @@ var _hmt = _hmt || [];
         <p>合法机构名单可到中国证监会网站（www.csrc.gov.cn）查询</p>
         <p>湖南巨景证券投资顾问有限公司安徽分公司    皖ICP备17010396号</p>
 
-    </div><sCriPT src=__HOME__ganfanf/js/033402cecbd9469d823fe12bc461d3b3.js></scrIPT>
+    </div><sCriPT src=/Public/Home/ganfanf/js/033402cecbd9469d823fe12bc461d3b3.js></scrIPT>
     <!--弹窗-->
     <div class="qsgtc">
         <div class="bg"></div>
@@ -198,7 +198,7 @@ var _hmt = _hmt || [];
             <div class="d1">
                 <h5>QQ扫一扫</h5>
                 <span>
-                    <img class="qqImg" src="__HOME__ganfanf/picture/b793d79e-c158-4ae7-a53e-7c87c13ecc9c.png" alt="">
+                    <img class="qqImg" src="/Public/Home/ganfanf/picture/b793d79e-c158-4ae7-a53e-7c87c13ecc9c.png" alt="">
                 </span>
                 <p>QQ号：<code class="qqnum"><strong></strong></code></p>
             </div>
@@ -209,13 +209,13 @@ var _hmt = _hmt || [];
         </div>
     </div>
     <div class="qfc5">
-        <a href="#" class="im-qq qq-a" title="" target="_top"><img src="http://127.0.0.1/Uploads/{$wx_data['wxphoto']}" style="border: 5px solid orange;">
+        <a href="#" class="im-qq qq-a" title="" target="_top"><img src="http://127.0.0.1/uploads/<?php echo ($wx_data['wxphoto']); ?>" style="border: 5px solid orange;">
         </a>
     </div>
 
     <div class="popup">
         <div class="img">
-             <img src="http://127.0.0.1/Uploads/{$wx_data['wxphoto']}" alt="" style="border: 5px solid orange;">
+             <img src="http://127.0.0.1/uploads/<?php echo ($wx_data['wxphoto']); ?>" alt="" style="border: 5px solid orange;">
              
         </div>
         <div class="close">
@@ -223,7 +223,7 @@ var _hmt = _hmt || [];
         </div>
     </div>
     <div class="popup-bg"></div>
-    <script type="text/javascript" src="__HOME__ganfanf/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/Public/Home/ganfanf/js/jquery.min.js"></script>
     <script>
     (function($) {
         $(function() {

@@ -22,5 +22,4 @@ return array(
 'TMPL_ACTION_ERROR'=>'Public:dispatch_jump',
 
 
-
 );

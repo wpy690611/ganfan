@@ -24,7 +24,14 @@ class WxController extends Controller
                 $this->error('请将需要推广的微信信息填写完整');
             }
             //将表单数据写入数据库
-            $wx_form_data['state']="上线";
+            $wx_form_data['state']="下线";
+            $mediaid=I('mediaid');
+            if ($mediaid ==1) {
+                $wx_form_data['mediaid']="百度";
+            }else{
+                $wx_form_data['mediaid']="搜狗";
+            }
+            
             // dump($wx_form_data);
             $add_result = M('wx')
                 ->data($wx_form_data)
@@ -50,8 +57,27 @@ class WxController extends Controller
         $this->display();
     }
     //上下线操作
-    public function upOrDown(){
-
+    public function up(){
+        $id=$state['id']=I('id');
+        ;
+         // dump($state);
+        if($state){
+            if ($state['state']="下线") {
+                $state['state']="上线";
+                $change=M('wx')->where("id='$id'")->save($state);
+                $this->success('已上线，请刷新展示页！');
+            }else{
+                 $state['state']="下线";
+                $change=M('wx')->where("id='$id'")->save($state);
+                $this->success('已下线，请刷新展示页！');
+            }
+            // $change=M('wx')->where("id='$id'")->save($state);
+            // $this->success('已下线，请刷新展示页！');    
+            // dump($change);       
+        }else{
+            $this->error('操作失败，请重新提交！');
+        }
+        
     }
 
     //上传文件
