@@ -19,7 +19,7 @@
     <script type="text/javascript" src="__ADMIN__lib/DD_belatedPNG_0.0.8a-min.js" ></script>
     <script>DD_belatedPNG.fix('*');</script>
     <![endif]-->
-    <title>用户访问查询</title>
+    <title>微信推广管理</title>
 </head>
 <body>
 <div class="mt-20">
@@ -32,15 +32,13 @@
             <th width="100">被推广人微信号</th>
             <th width="100">微信二维码url</th>
             <th width="60">推广源</th>
-            <th width="150">目前状态</th>
-            
-            <!-- <th width="60">关键词</th> -->
+            <th width="150">目前状态</th>       
+            <th width="60">操作</th>
             <!-- <th width="60" class="text-c">审核专员</th> -->
         </tr>
         </thead>
         <tbody>
-        <volist name="wxlist" id="vo">
-        
+        <volist name="wxlist" id="vo">    
         <tr class="text-c">
             <td><input name="" type="checkbox" value=""></td>
             <td >{$vo.id}</td>
@@ -56,6 +54,10 @@
             <form action="{:U('wx/up')}">
             <input type="hidden" value="{$vo.id}" name="id">
             <input onclick="alert('确定要上/下线吗？？？')" type="submit" value="{$vo.state}" name="state">状态</td></form>
+            <td>
+            <form action="{:U('Wx/wxchange')}">
+            <input type="hidden" value="{$vo.id}" name="id">
+            <input onclick="alert('确定要修改吗？？？')" type="submit" value="修改" name="change"></td></form>
         </tr>
         </volist>
         </tbody>
